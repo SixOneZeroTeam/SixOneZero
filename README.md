@@ -1,9 +1,7 @@
 # SixOneZero
-610商城
+项目名称: 610商城
 
-
-
-# 安装模块
-pip -r requirements.txt
-
-pip install -i "http://mirrors.aliyun.com/pypi/simple/" --trusted-host mirrors.aliyun.com -r requirements.txt
+# 目录说明
+py36_env      python虚拟环境
+SixOneZero    python后台代码文件
+文档          需求文档等
