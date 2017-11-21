@@ -1,0 +1,1 @@
+@"i:\sixonezero\py36_env\scripts\python.exe" "i:\sixonezero\py36_env\Scripts\markdown_py" %*
