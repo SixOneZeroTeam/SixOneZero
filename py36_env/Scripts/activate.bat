@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=I:\SixOneZero\py36_env"
+set "VIRTUAL_ENV=I:\SixOneZero-ALL\py36_env"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

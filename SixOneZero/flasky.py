@@ -58,7 +58,9 @@ def test(coverage):
 @click.option('--profile-dir', default=None,
               help='Directory where profiler data files are saved.')
 def profile(length, profile_dir):
-    """Start the application under the code profiler."""
+    """Start the application under the code profiler.
+    可以根据该信息优化flask
+    """
     from werkzeug.contrib.profiler import ProfilerMiddleware
     app.wsgi_app = ProfilerMiddleware(app.wsgi_app, restrictions=[length],
                                       profile_dir=profile_dir)
@@ -76,3 +78,5 @@ def deploy():
 
     # ensure all users are following themselves
     User.add_self_follows()
+
+

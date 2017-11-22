@@ -1,4 +1,6 @@
 #!/bin/sh
+#服务器启动脚本
+
 source venv/bin/activate
 
 while true; do
